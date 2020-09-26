@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1519614218660-ea0a24a43b4c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(8, 7, 7);
+  color: white;
+  text-align: center;
+}
+
+.time-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+.time-number {
+  justify-content: space-around;
+  justify-content: center;
+  padding: 0;
+}
+
+.time-group {
+  justify-content: space-around;
+}
+
+.time-hr,
+.time-min,
+.time-sec,
+.label-min,
+.label-hr {
+  font-size: 10rem;
+  margin: 0px 0.5rem 0px 0.5rem;
+}
+
+.line {
+  width: 100%;
+  border-top: 1px solid white;
+  margin: 0px 5px 0px 5px;
+}
+
+.line2 {
+  width: 100%;
+  border-top: 10px solid white;
+  margin: 0px 5px 0px 5px;
+}
+
+.line-col {
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
